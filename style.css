@@ -1,0 +1,143 @@
+body{
+	font-family: Arial;
+	margin:0;
+	padding:15px;
+	background-color: #ffffff;
+}
+*{
+	box-sizing: border-box;
+}
+/* Hide all the second parts of paragraph */
+#part11, #part21, #part31, #part41, #part51, #part61{
+    display: none;
+}
+/* give margin to the icons */
+#bar1{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#bar2{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#bar3{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#bar4{
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* some designs to button */
+button{
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 6px 4px 3px grey;
+    outline: none;
+    border: 1px solid black;
+}
+footer button{
+   
+    color: rgba(0,0,0,0.4);
+    background-color: #dddddd;
+    border: solid  rgba(0,0,0,0.2) 1px;
+    box-shadow: none;
+    
+}
+/* design some of the section */
+#main{
+    height: 30px;
+    padding: 7px;
+}
+#m1{
+    padding: 5px;  
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header{
+	background-color: #ffffff;
+    padding:5px;
+    
+    
+}
+header h1{
+	text-align: center;
+	font-size:60px;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-variant: small-caps;
+	margin:1.5 0px;
+}
+h2{
+	color:#000000;
+	margin:1.5 0px;	
+	text-align: center;
+}
+h5{
+	margin-left: 5%;
+    margin-right: 5%;
+    color: orangered;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+p{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+}
+.left-column{
+float: left;
+width: 75%;	
+}
+
+.right-column{
+ width: 25%;
+ float: right;
+ padding-left:20px;
+}
+/* design posts */
+.card{
+	padding: 2px;
+	background-color: #ffffff;
+	margin-top:20px;
+	border: solid black 2px;
+	border-color: rgba(0,0,0,0.2);
+}
+/* style images */
+.card img{
+    width: 100%;
+    border: solid black 1px;
+	border-color: rgba(0,0,0,0.2);
+}
+.right-column .card img{
+	margin-bottom: 10px;
+}
+footer{
+	background-color: #dddddd;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 100%;
+    padding: 0px;
+	}
+}
+
+
